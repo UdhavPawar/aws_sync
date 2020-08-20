@@ -31,7 +31,7 @@ class crossAccountSecrets(object):
             else:
                 raise e
 
-def init(self):
+def sync(self):
     # source defintions
     sourceAccountProfile = "" 
     sourceSecretsRegion = ""
