@@ -1,14 +1,13 @@
 import aws-sync 
 
 # source defintions
-sourceAccountProfile = ""
-sourceSecretsRegion = ""
-sourceSecretsEnvFilter = ""
+sourceAccountProfile = "accountA"
+sourceSecretsRegion = "us-east-1"
+sourceSecretsEnvFilter = "" # if not specified then all secrets will be replicated.
 
 # destination definitions
-destinationAccountProfile = ""
-destinationSecretsRegion = ""
-destinationAccountKMS = ""
+destinationAccountProfile = "accountB"
+destinationSecretsRegion = "us-west-2"
+destinationAccountKMS = "" # if not specifed then "DefaultEncryptionKey" will be used.
 
-response = aws-sync.sync(sourceAccountProfile, sourceSecretsRegion, sourceSecretsEnvFilter, destinationAccountProfile, destinationSecretsRegion, destinationAccountKMS)
-print(response)
+aws-sync.sync(sourceAccountProfile, sourceSecretsRegion, sourceSecretsEnvFilter, destinationAccountProfile, destinationSecretsRegion, destinationAccountKMS)
