@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="aws-sync",
     packages=find_packages(),
-    version="0.1",
+    version="0.2",
     description="Sync AWS secrets across multiple accounts",
     long_description="This python package allows user to easily sync or replicate specifc or all secrets between multiple AWS accounts.",
     author="Udhav Pawar",
