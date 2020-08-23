@@ -52,7 +52,7 @@ OR
 ```bash
 python3 -m pip install aws-sync
 ```
-> Facing an issue? Check the [Issues](https://github.com/UdhavPawar/find_github_email/issues) section or open a new issue.
+> Facing an issue? Check the [Issues](https://github.com/UdhavPawar/aws-sync/issues) section or open a new issue.
 
 
 ## How To Use
@@ -67,7 +67,7 @@ python3 -m pip install aws-sync
 ```python3
 
 ```
-> Facing an issue? Check the [Issues](https://github.com/UdhavPawar/find_github_email/issues) section or open a new issue.
+> Facing an issue? Check the [Issues](https://github.com/UdhavPawar/aws-sync/issues) section or open a new issue.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change/fix.
