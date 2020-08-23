@@ -1,4 +1,4 @@
-import aws-sync 
+import aws_sync 
 
 # source defintions
 sourceAccountProfile = "accountA"
