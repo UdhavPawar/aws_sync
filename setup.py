@@ -5,7 +5,9 @@ setup(
     packages=find_packages(),
     version="0.3",
     description="Sync AWS secrets across multiple accounts",
-    long_description="This python package allows user to easily sync or replicate specifc or all secrets between multiple AWS accounts.",
+    long_description="
+    Python package which easily syncs specifc or all secrets between multiple AWS accounts. Missing secrets are automatically created and existing secrets are updated in-place. Supports filtering to replicate specific pattern matching secrets. Defaults to replicate all secrets. Supports using custom KMS Encryption key. Defaults to default AWS secrets manager encryption key.
+",
     author="Udhav Pawar",
     author_email="upawar78@gmail.com",
     url="https://github.com/UdhavPawar/aws_sync",
